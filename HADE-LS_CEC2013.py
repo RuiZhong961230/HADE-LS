@@ -60,7 +60,7 @@ def HADE(func):
     for i in range(PopSize):
         idx = sort_idx[i]
         if i < 10:
-            Off[idx] = Off[idx] + np.random.uniform(-1, 1, DimSize)  # Local search
+            Off[idx] = Pop[idx] + np.random.uniform(-1, 1, DimSize)  # Local search
             Off[idx] = np.clip(Off[idx], LB, UB)
             FitOff[idx] = func.evaluate(Off[idx])
 
