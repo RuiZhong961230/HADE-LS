@@ -18,5 +18,8 @@ isbn="978-981-97-7181-3"
 }
 
 ## Datasets and Libraries
-CEC benchmarks are provided by the opfunu library, while the ELM model and datasets in classification are provided by mafese and intelelm libraries.
+CEC benchmarks and Engineering problems are provided by opfunu==1.0.0 and enoppy==0.1.1 libraries, respectively. ELM model and datasets in classification are provided by mafese==0.1.8 and intelelm==1.0.3 libraries.
+
+## Contact
+If you have any questions, please don't hesitate to contact zhongrui[at]iic.hokudai.ac.jp
 
